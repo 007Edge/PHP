@@ -6,11 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="getpostempty.php" method="post">
         UserName:<input type="text" name="user" placeholder="UserName">
         PassWord:<input type="password" name="pass" placeholder="PassWord">
 
-        <input type="submit" value="Submit" name="btn">
+        <button>Click me</button>
 
     </form>
 </body>
@@ -21,11 +21,12 @@
     
     $un = $_POST["user"];
     $ps = $_POST["pass"];
+    
     if (!empty($un && $ps)) {
         echo "hi $un";
     }
     else {
-        echo "please fill your password sencond!";
+        echo "please fill your password !";
     }
 
 ?>
