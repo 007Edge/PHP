@@ -24,7 +24,7 @@
     array_splice($cars, 1, 2);   // remove two items from start from 1st idx
 
     // $cars = array("Volvo", "BMW", "Toyota");
-    // unset($cars[0], $cars[1]);      remove 1st and second items from array thired item will reamin in 2nd idx 
+    // unset($cars[0], $cars[1]);      remove 1st and second items from array third item will reamin in 2nd idx 
      
     // sort() - sort arrays in ascending order
     // rsort() - sort arrays in descending order
