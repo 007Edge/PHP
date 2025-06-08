@@ -28,3 +28,5 @@
 
 
 ?>
+
+<!-- Note: the value of the static variable will be retained between function calls -->
