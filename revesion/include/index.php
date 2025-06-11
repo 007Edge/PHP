@@ -21,3 +21,10 @@
 <?php 
     include("footer.php");
 ?>
+
+<!-- 
+    Difference between include and require
+    include continues execution on errors, used for optional files
+    require stops the script execution on error, used for critical files(like DB config)
+ 
+-->
