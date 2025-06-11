@@ -1,5 +1,7 @@
 
 <?php 
+    // NOTE: Enumerated arrays are also known as indexed arrays
+
     
     // $arr = array("shivam", "edge", "jodd");
     // for ($i = 0; $i<count($arr); $i++) {
@@ -21,7 +23,7 @@
     // $arr = []        this is an empty array
 
     $cars = array("Volvo", "BMW", "Toyota");
-    array_splice($cars, 1, 2);   // remove two items from start from 1st idx
+    array_splice($cars, 1, 2);   // remove two items from 1st idx
 
     // $cars = array("Volvo", "BMW", "Toyota");
     // unset($cars[0], $cars[1]);      remove 1st and second items from array third item will reamin in 2nd idx 
