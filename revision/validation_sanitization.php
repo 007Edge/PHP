@@ -44,6 +44,11 @@
 
     $n = filter_var($un, FILTER_SANITIZE_NUMBER_INT);
     echo $n;
+
+    // Difference between validation and sanitization
+    // validation is checking weather input is valid
+    // sanitization cleaning of input i.e. removing unwanted data
+    // use of sanitization: protection from sql injection and cross site scripting
     
 
 
