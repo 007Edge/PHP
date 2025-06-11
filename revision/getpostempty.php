@@ -29,4 +29,8 @@
         echo "please fill your password !";
     }
 
+    // isset() returns true if variable exist and not null
+    // unset() deletes a variable
+    // empty() returns ture is variable contain some value or not empty
+
 ?>
