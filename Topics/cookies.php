@@ -15,5 +15,5 @@
     else {
         echo "I don't kno your favorite food";
     }
-
+    // difference between session and cookies is session data is stored in sever, where as cookie date is stored within the browser
 ?>
